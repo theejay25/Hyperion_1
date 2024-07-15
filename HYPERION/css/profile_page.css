@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+@font-face{
+	font-family: 'rastiga';
+    src: url('../font/Rastiga.otf');
+}
+
+.body{
+	background: linear-gradient(-180deg, #939185 38%, #E6B9A6 10%);
+	height: 106.2%;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+    margin: -3% 0 0 0;
+}
+
+a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #000;
+	font-family: raleway, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+ul{
+	display: inline-flex;
+position: relative;
+margin: 0;
+gap: 60px;
+top: 40%;
+left: 40%;
+list-style: none;	
+}
+
+.underline{
+	position: absolute;
+	background-color:#5C5346;
+	content: "";
+	margin-left: -56%;
+	margin-top: 10%;
+	filter: blur(0px);
+	border-radius: 0px;  
+	height: 10%;
+	width: 15%;
+	z-index: -1;
+	transition: .5s all;
+	}
+
+
+     /* work in progress */
+
+
+	/* .link:nth-child(2){
+		/* background-color: #fff; */
+		/* margin-left: -36%;
+	margin-top: 10%; */
+	} */
+
+
+
+.header{
+	position: fixed;
+display: flex;
+background-color: 	transparent;
+height: 8%;
+width:100%;
+margin: 0 0 0 0;
+}
+
+.links{
+	position: absolute ;
+background-color: transparent;
+width: 30%;
+margin: 1% 0 0 55%;
+}
+
+.name{
+	position: absolute;
+font-size: 45px;
+letter-spacing: 8px;
+font-family: rastiga, sans-serif;
+margin: 2% 0 0 4%;
+color: #ECCEAE;
+}
