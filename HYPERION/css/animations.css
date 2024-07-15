@@ -1,0 +1,24 @@
+
+
+
+@keyframes bounces{
+    0%{
+    top: 0px;
+    }
+    
+    25%{
+    top: -4px;
+    }
+
+    50%{
+    top: -8px;
+    }
+
+    75%{
+    top:-4px ;
+    }
+     
+     100%{
+    top: 0px;
+    }
+}
