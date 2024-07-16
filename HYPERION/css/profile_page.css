@@ -11,7 +11,7 @@
 }
 
 .body{
-	background: linear-gradient(-180deg, #939185 38%, #E6B9A6 10%);
+	background: linear-gradient(to top, #939185 38%, #E6B9A6);
 	height: 106.2%;
 	width: 100%;
 	position: absolute;
@@ -87,4 +87,46 @@ letter-spacing: 8px;
 font-family: rastiga, sans-serif;
 margin: 2% 0 0 4%;
 color: #ECCEAE;
+}
+
+.img{
+ position: absolute;
+ display: block;
+ border: 3px solid #E6B9A6;
+ background-color: #E6B9A6;
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+ margin: 10% 0 0 43%;
+ z-index: 3;
+}
+
+.information{
+	position: absolute;
+	background-color: #fff;
+	width: 61%;
+	height: 58%;
+	border-radius: 10px;
+	margin: 17% 0 0 19%;
+}
+
+.btn{
+	position: relative;
+	height: 10%;
+	width: 13%;
+	background-color: #597445;
+	border-radius: 12px;
+	border: none;
+	margin: 40% 0 0 43%;
+}
+
+.basket{
+	position: absolute;
+	color: #1754a3;
+	text-transform: capitalize;
+	margin-left: 25%;
+	margin-top: 5%;
+	font-size: 15px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
 }
