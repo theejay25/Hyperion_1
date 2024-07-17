@@ -10,6 +10,13 @@
     src: url('../font/Rastiga.otf');
 }
 
+h1 {
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	font-size: 17px;
+	margin: 15% 0 0 23%;
+}
+
 .body{
 	background: linear-gradient(to top, #939185 38%, #E6B9A6);
 	height: 106.2%;
@@ -115,9 +122,9 @@ color: #ECCEAE;
 	height: 10%;
 	width: 13%;
 	background-color: #597445;
-	border-radius: 12px;
+	border-radius: 26px;
 	border: none;
-	margin: 40% 0 0 43%;
+	margin: 43% 0 0 43%;
 }
 
 .basket{
@@ -130,3 +137,44 @@ color: #ECCEAE;
 	font-family: sans-serif;
 	letter-spacing: 2px;
 }
+
+.personal {
+	position: absolute;
+	height: 43%;
+	width: 55%;
+	border: none;
+	margin: 15% 0 0 -35%;
+
+}
+
+.linkUp {
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	font-size: 17px;
+	color: #c21f69;
+	font-weight: 550;
+}
+
+.signUp {
+	position: absolute;
+	background:#fff;
+	height: 110%;
+	width: 35%;
+	border-radius:12px ;
+	border: .5px solid #c21f69;
+	z-index: 4;
+	margin: -2% 0 0 -20%;
+}
+
+.input {
+	margin: 30px;
+	background: none;
+	border: none;
+	outline: none;
+	max-width: 190px;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 9999px;
+	box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+	color: #fff;
+  }
