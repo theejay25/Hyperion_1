@@ -11,6 +11,20 @@
 
 <script>
 
+function signUp(){
+  // Access the style property directly
+  var join = document.getElementById('signUp').style;
+
+  // Modify CSS properties
+  
+  join.display = 'inline';
+}
+
+function back() {
+var join = document.getElementById('signUp').style;
+
+join.display = 'none';
+}
 
 </script>
 
@@ -50,9 +64,22 @@
 
 	</span>
 
-	<span class="signUp">
+	<span class="signUp" id="signUp">
+         <!-- class: back will be replaced with back arrow icon -->
+
+		<a href="#" onclick="back()" class="back">back</a>
       
-		<input placeholder="Username" class="input" name="text" type="text">
+		<input placeholder="Username" class="input" name="text" type="text" required />
+
+		<input placeholder="Phone number" class="input" name="text" type="number" required  max="11" />
+
+		<input placeholder="E-mail" class="input" name="text" type="email" required />
+
+		<input placeholder="Password" class="input" name="text" type="password" required />
+
+		<input placeholder="Re-enter Password" class="input" name="text" type="password " required />
+
+		<input type="submit" class="submit" value="Finish" />
 
 	</span>
 

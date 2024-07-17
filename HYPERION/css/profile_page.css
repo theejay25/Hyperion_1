@@ -10,11 +10,15 @@
     src: url('../font/Rastiga.otf');
 }
 
+input {
+	cursor: pointer;
+}
+
 h1 {
 	font-family: sans-serif;
 	letter-spacing: 1px;
 	font-size: 17px;
-	margin: 15% 0 0 23%;
+	margin: 15% 0 0 24%;
 }
 
 .body{
@@ -164,6 +168,7 @@ color: #ECCEAE;
 	border: .5px solid #c21f69;
 	z-index: 4;
 	margin: -2% 0 0 -20%;
+	display: none;
 }
 
 .input {
@@ -171,10 +176,33 @@ color: #ECCEAE;
 	background: none;
 	border: none;
 	outline: none;
-	max-width: 190px;
+	max-width: 235px;
 	padding: 10px 20px;
 	font-size: 16px;
-	border-radius: 9999px;
-	box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-	color: #fff;
+	border-radius: 12px;
+	box-shadow: inset 1px 1px 9px rgb(5, 5, 5);
+	color: #000;
+	margin: 13% 0 0 14%;
   }
+
+  .submit {
+	position: absolute;
+	margin: 40% 0 0 -13%;
+	height: 6%;
+	width: 23%;
+	background-color: #597445;
+	border-radius: 5px;
+	border: none;
+
+  }
+
+  .back {
+	position: absolute;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	font-size: 17px;
+	color: #c21f69;
+	font-weight: 550;
+	margin: 3% 0 0 5%;
+	
+}
