@@ -26,6 +26,16 @@ var join = document.getElementById('signUp').style;
 join.display = 'none';
 }
 
+function input() {
+	var identity = document.getElementById('identity').value;
+
+	document.getElementById("title").innerHTML = identity;
+
+	var identity = document.getElementById('phone').value;
+
+document.getElementById("phoneNumber").innerHTML = identity;
+}
+
 </script>
 
 <body>
@@ -59,6 +69,8 @@ join.display = 'none';
 
 	<span class="personal">
 
+		<p class="text_1" id="title"></p>
+		<p class="phoneNumber" id="phoneNumber"></p>
 		<h1 class="warning">Please <a href="#" onclick="signUp()" class="linkUp">Sign in</a> to view information</h1>
 
 
@@ -69,17 +81,17 @@ join.display = 'none';
 
 		<a href="#" onclick="back()" class="back">back</a>
       
-		<input placeholder="Username" class="input" name="text" type="text" required />
+		<input placeholder="Username" class="input" id="identity" type="text" required />
 
-		<input placeholder="Phone number" class="input" name="text" type="number" required  max="11" />
+		<input placeholder="Phone number" class="input" id="phone" type="number" required  max="11" />
 
-		<input placeholder="E-mail" class="input" name="text" type="email" required />
+		<input placeholder="E-mail" class="input" id="email" type="email" required />
 
-		<input placeholder="Password" class="input" name="text" type="password" required />
+		<input placeholder="Password" class="input" id="pword" type="password" required />
 
-		<input placeholder="Re-enter Password" class="input" name="text" type="password " required />
+		<input placeholder="Re-enter Password" class="input" id="pword2" type="password " required />
 
-		<input type="submit" class="submit" value="Finish" />
+		<input type="submit" class="submit" value="Finish" onclick="input()" />
 
 	</span>
 

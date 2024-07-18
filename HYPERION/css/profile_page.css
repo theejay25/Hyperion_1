@@ -145,7 +145,7 @@ color: #ECCEAE;
 .personal {
 	position: absolute;
 	height: 43%;
-	width: 55%;
+	width: 65%;
 	border: none;
 	margin: 15% 0 0 -35%;
 
@@ -205,4 +205,22 @@ color: #ECCEAE;
 	font-weight: 550;
 	margin: 3% 0 0 5%;
 	
+}
+
+.text_1 {
+	font-family: sans-serif;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	max-width: 90%;
+	margin: -3% 0 0 5%;
+	text-transform: uppercase;
+    
+}
+
+.phoneNumber {
+	margin: 2% 0 0 30% ;
+	font-size: 17px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
 }
