@@ -18,7 +18,7 @@ h1 {
 }
 
 .body{
-	background: linear-gradient(to top, #939185 38%, #E6B9A6);
+	background: #fcfcfc;
 	height: 106.2%;
 	width: 100%;
 	position: absolute;
@@ -93,38 +93,41 @@ font-size: 45px;
 letter-spacing: 8px;
 font-family: rastiga, sans-serif;
 margin: 2% 0 0 4%;
-color: #ECCEAE;
+color: #000;
 }
 
 .img{
  position: absolute;
  display: block;
- border: 3px solid #E6B9A6;
- background-color: #E6B9A6;
+ /* border: 3px solid #E6B9A6; */
+ background-color: #fff;
  width: 200px;
  height: 200px;
  border-radius: 50%;
  margin: 10% 0 0 43%;
  z-index: 3;
+ box-shadow: 3px 1px 9px #8f8f8f;
 }
 
 .information{
 	position: absolute;
-	background-color: #fff;
+	background-color: fff;
 	width: 61%;
 	height: 58%;
 	border-radius: 10px;
 	margin: 17% 0 0 19%;
+	box-shadow: 3px 1px 9px #8f8f8f;
 }
 
 .btn{
 	position: relative;
 	height: 10%;
 	width: 13%;
-	background-color: #597445;
+	background-color: #000;
 	border-radius: 26px;
 	border: none;
-	margin: 43% 0 0 43%;
+	margin: 40% 0 0 43%;
+	color: #fff;
 }
 
 .basket{
@@ -161,9 +164,14 @@ color: #ECCEAE;
 	height: 110%;
 	width: 35%;
 	border-radius:12px ;
-	border: .5px solid #c21f69;
+	/* border: .5px solid #c21f69; */
 	z-index: 4;
 	margin: -2% 0 0 -20%;
+<<<<<<< Updated upstream
+=======
+	display: none;
+	box-shadow: 3px 1px 9px #8f8f8f;
+>>>>>>> Stashed changes
 }
 
 .input {
@@ -171,6 +179,7 @@ color: #ECCEAE;
 	background: none;
 	border: none;
 	outline: none;
+<<<<<<< Updated upstream
 	max-width: 190px;
 	padding: 10px 20px;
 	font-size: 16px;
@@ -178,3 +187,54 @@ color: #ECCEAE;
 	box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
 	color: #fff;
   }
+=======
+	border-bottom: 2px ridge #000;
+	max-width: 235px;
+	padding: 10px 20px;
+	font-size: 16px;
+	/* border-radius: 12px; */
+	/* box-shadow: inset 1px 1px 9px rgb(5, 5, 5); */
+	color: #000;
+	margin: 13% 0 0 14%;
+  }
+
+  .submit {
+	position: absolute;
+	margin: 40% 0 0 -13%;
+	height: 6%;
+	width: 23%;
+	background-color: #597445;
+	border-radius: 5px;
+	border: none;
+
+  }
+
+  .back {
+	position: absolute;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	font-size: 17px;
+	color: #c21f69;
+	font-weight: 550;
+	margin: 3% 0 0 5%;
+	
+}
+
+.text_1 {
+	font-family: sans-serif;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	max-width: 90%;
+	margin: -3% 0 0 5%;
+	text-transform: uppercase;
+    
+}
+
+.phoneNumber {
+	margin: 2% 0 0 30% ;
+	font-size: 17px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+>>>>>>> Stashed changes

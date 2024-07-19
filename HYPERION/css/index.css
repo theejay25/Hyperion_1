@@ -31,7 +31,7 @@ img{
 }
 
 .body{
-	background: linear-gradient(to right, #939185 5%, #E6B9A6);
+	background: #fcfcfc;
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -100,7 +100,7 @@ font-size: 155px;
 letter-spacing: 8px;
 font-family: rastiga, sans-serif;
 margin: 17% 0 0 28.5%;
-color: #ECCEAE;
+color: #000;
 }
 
 .name::before{
@@ -124,11 +124,12 @@ margin: 0 0 0 55%;
 
 .content_1{
 	position: absolute;
-	background: linear-gradient(-270deg, #FFD3B6 34%, #7a6556 10%);
+	background: linear-gradient(-270deg, #fff 34%, #000 10%);
 height: 16%;	
 width: 21%;
 border-radius: 11px;
 margin: 6% 0 0 66%;
+box-shadow: 3px 1px 9px #8f8f8f;
 }
 
 .items {
@@ -139,7 +140,7 @@ margin: 6% 0 0 66%;
 	font-weight: 600;
 	letter-spacing: 2px;
 	text-transform: capitalize;
-	color: #FFD3B6;
+	color: #fff;
 }
 
 
@@ -150,6 +151,7 @@ margin: 6% 0 0 66%;
 	font-family: sans-serif;
 	font-weight: 552;
 	letter-spacing: 2px;
+	color: #fff;
 }
 
 .add{
@@ -166,11 +168,12 @@ margin: 6% 0 0 66%;
 
 .content_2{
 	position: absolute;
-	background: linear-gradient(-180deg, #FFD3B6 70%, #7a6556 10%);
+	background: linear-gradient(-180deg, #fff 70%, #000 10%);
 	height: 36%;	
 	width: 12%;
 	border-radius: 11px;
 	margin: 28% 0 0 68%;
+	box-shadow: 3px 1px 9px #8f8f8f;
 }
 
 .items_1{
@@ -181,7 +184,7 @@ margin: 6% 0 0 66%;
 	font-weight: 600;
 	letter-spacing: 2px;
 	text-transform: capitalize;
-	color: #FFD3B6;
+	color: #fff;
 }
 
 .price_1{
@@ -191,6 +194,7 @@ margin: 6% 0 0 66%;
 	font-family: sans-serif;
 	font-weight: 552;
 	letter-spacing: 2px;
+	color: #fff;
 }
 
 .add_1{
@@ -207,20 +211,22 @@ margin: 6% 0 0 66%;
 
 .content_3{
 	position: absolute;
-	background: linear-gradient(-180deg, #FFD3B6 70%, #7a6556 10%);
+	background: linear-gradient(-180deg, #fff 70%, #000 10%);
 	height: 36%;	
 	width: 12%;
 	border-radius: 11px;
 	margin: 28% 0 0 85%;
+	box-shadow: 3px 1px 9px #8f8f8f;
 }
 
 .content_4{
 	position: absolute;
-	background: linear-gradient(-180deg, #FFD3B6 65%, #7a6556 10%);
+	background: linear-gradient(-180deg, #fff 65%, #000 10%);
 height: 28%;	
 width: 32%;
 border-radius: 11px;
 margin: 1% 0 0 5%;
+box-shadow: 3px 1px 9px #8f8f8f;
 }
 
 .items_3{
@@ -231,7 +237,7 @@ margin: 1% 0 0 5%;
 	font-weight: 600;
 	letter-spacing: 2px;
 	text-transform: capitalize;
-	color: #FFD3B6;
+	color: #fff;
 }
 
 .price_3{
@@ -241,6 +247,7 @@ margin: 1% 0 0 5%;
 	font-family: sans-serif;
 	font-weight: 552;
 	letter-spacing: 2px;
+	color: #fff;
 }
 
 .add_3{
@@ -275,7 +282,7 @@ margin: 1% 0 0 5%;
 
 /* changes were made here */
 .btn{
-	background-color: #597445;
+	background-color: #000;
 	height: 60px;
 	width: 230px;
 	border-radius: 8px;
@@ -283,7 +290,7 @@ margin: 1% 0 0 5%;
 	font-size: 23xpx;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	color: #D6EFD8 ;
+	color: #fff ;
 	margin: 1% 0 0 15%;
 	cursor: pointer;
 }
