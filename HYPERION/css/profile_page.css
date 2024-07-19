@@ -25,7 +25,10 @@ body{
 	background: linear-gradient(to top, #939185 38%, #E6B9A6);
 	height: 100vh;
 	width: 100%;
-	padding: 30px 50px;
+	padding: 30px 50px 60px 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .header{
 	display: flex;
@@ -103,8 +106,8 @@ section{
 	justify-content: center;
 	flex-direction: column;
 	background-color: #fff;
-	width: 1000px;
-	height: 500px;
+	width: 1200px;
+	height: 600px;
 	border-radius: 20px;
 }
 
