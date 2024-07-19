@@ -9,40 +9,11 @@
 
 </head>
 
-<script>
-
-function signUp(){
-  // Access the style property directly
-  var join = document.getElementById('signUp').style;
-
-  // Modify CSS properties
-  
-  join.display = 'inline';
-}
-
-function back() {
-var join = document.getElementById('signUp').style;
-
-join.display = 'none';
-}
-
-function input() {
-	var identity = document.getElementById('identity').value;
-
-	document.getElementById("title").innerHTML = identity;
-
-	var identity = document.getElementById('phone').value;
-
-document.getElementById("phoneNumber").innerHTML = identity;
-}
-
-</script>
 
 <body>
 
-	<p class="name">HYPERION</p>
-
 <nav class="header">
+	<p class="name">HYPERION</p>
 
 	<div class="links">
 
@@ -60,16 +31,17 @@ document.getElementById("phoneNumber").innerHTML = identity;
 
 <section class="body">
 
-<img src="" class="img" alt="profile">
-<div class="information">
 
+<div class="information">
+	<img src="" class="img" alt="profile">
+	
 	<button onclick="" class="btn">Button</button>
 	<ion-icon name="basket-outline" size="big"></ion-icon>
 	<a href="#" class="basket">my basket</a>
 
 	<span class="personal">
 
-		<p class="text_1" id="title"></p>
+		<p class="text_1" id="title">Jay jay jay jay</p>
 		<p class="phoneNumber" id="phoneNumber"></p>
 		<h1 class="warning">Please <a href="#" onclick="signUp()" class="linkUp">Sign in</a> to view information</h1>
 
@@ -98,5 +70,45 @@ document.getElementById("phoneNumber").innerHTML = identity;
 </div>
 
     </section>
+</body>
 
-	</body>
+
+
+
+
+
+
+
+
+
+
+
+	<script>
+
+		function signUp(){
+		  // Access the style property directly
+		  var join = document.getElementById('signUp').style;
+		
+		  // Modify CSS properties
+		  
+		  join.display = 'inline';
+		}
+		
+		function back() {
+		var join = document.getElementById('signUp').style;
+		
+		join.display = 'none';
+		}
+		
+		function input() {
+			var identity = document.getElementById('identity').value;
+		
+			document.getElementById("title").innerHTML = identity;
+		
+			var identity = document.getElementById('phone').value;
+		
+		document.getElementById("phoneNumber").innerHTML = identity;
+		}
+		
+		</script>
+</html>		
