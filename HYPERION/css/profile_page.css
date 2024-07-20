@@ -10,21 +10,39 @@
     src: url('../font/Rastiga.otf');
 }
 
+input {
+	cursor: pointer;
+}
+
 h1 {
 	font-family: sans-serif;
 	letter-spacing: 1px;
 	font-size: 17px;
-	margin: 15% 0 0 23%;
+	margin: 15% 0 0 24%;
 }
 
-.body{
-	background: #fcfcfc;
-	height: 106.2%;
+body{
+	background: linear-gradient(to top, #939185 38%, #E6B9A6);
+	height: 100vh;
 	width: 100%;
-	position: absolute;
-	z-index: -1;
-    margin: -3% 0 0 0;
+	padding: 30px 50px 60px 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
+.header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.name{
+	font-size: 45px;
+	letter-spacing: 8px;
+	font-family: rastiga, sans-serif;
+	color: #ECCEAE;
+	}
 
 a{
 	text-transform: capitalize;
@@ -36,15 +54,11 @@ a{
 }
 
 ul{
-	display: inline-flex;
-position: relative;
-margin: 0;
+display: inline-flex;
 gap: 60px;
-top: 40%;
-left: 40%;
 list-style: none;	
 }
-
+/*
 .underline{
 	position: absolute;
 	background-color:#5C5346;
@@ -66,89 +80,68 @@ list-style: none;
 	/* .link:nth-child(2){
 		/* background-color: #fff; */
 		/* margin-left: -36%;
-	margin-top: 10%; */
-	} */
+	margin-top: 10%; 
+}*/
 
 
 
-.header{
-	position: fixed;
+
+/*U.header{
 display: flex;
 background-color: 	transparent;
 height: 8%;
 width:100%;
 margin: 0 0 0 0;
 }
-
-.links{
-	position: absolute ;
-background-color: transparent;
-width: 30%;
-margin: 1% 0 0 55%;
+*/
+section{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
-.name{
-	position: absolute;
-font-size: 45px;
-letter-spacing: 8px;
-font-family: rastiga, sans-serif;
-margin: 2% 0 0 4%;
-color: #000;
+.information{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #fff;
+	width: 1200px;
+	height: 600px;
+	border-radius: 20px;
 }
 
 .img{
- position: absolute;
  display: block;
- /* border: 3px solid #E6B9A6; */
- background-color: #fff;
+ border: 3px solid #E6B9A6;
+ background-color: #E6B9A6;
  width: 200px;
  height: 200px;
  border-radius: 50%;
- margin: 10% 0 0 43%;
- z-index: 3;
- box-shadow: 3px 1px 9px #8f8f8f;
-}
-
-.information{
-	position: absolute;
-	background-color: fff;
-	width: 61%;
-	height: 58%;
-	border-radius: 10px;
-	margin: 17% 0 0 19%;
-	box-shadow: 3px 1px 9px #8f8f8f;
+ /*margin: 10% 0 0 43%;*/
 }
 
 .btn{
-	position: relative;
 	height: 10%;
 	width: 13%;
-	background-color: #000;
+	background-color: #597445;
 	border-radius: 26px;
 	border: none;
-	margin: 40% 0 0 43%;
-	color: #fff;
 }
 
 .basket{
-	position: absolute;
 	color: #1754a3;
 	text-transform: capitalize;
-	margin-left: 25%;
-	margin-top: 5%;
 	font-size: 15px;
 	font-family: sans-serif;
 	letter-spacing: 2px;
 }
 
 .personal {
-	position: absolute;
-	height: 43%;
-	width: 55%;
 	border: none;
-	margin: 15% 0 0 -35%;
-
 }
+
+
 
 .linkUp {
 	font-family: sans-serif;
@@ -159,19 +152,12 @@ color: #000;
 }
 
 .signUp {
-	position: absolute;
 	background:#fff;
-	height: 110%;
-	width: 35%;
+	/*height: 110%;
+	width: 35%;*/
 	border-radius:12px ;
-	/* border: .5px solid #c21f69; */
-	z-index: 4;
-	margin: -2% 0 0 -20%;
-<<<<<<< Updated upstream
-=======
+	border: .5px solid #c21f69;
 	display: none;
-	box-shadow: 3px 1px 9px #8f8f8f;
->>>>>>> Stashed changes
 }
 
 .input {
@@ -179,30 +165,15 @@ color: #000;
 	background: none;
 	border: none;
 	outline: none;
-<<<<<<< Updated upstream
-	max-width: 190px;
-	padding: 10px 20px;
-	font-size: 16px;
-	border-radius: 9999px;
-	box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-	color: #fff;
-  }
-=======
-	border-bottom: 2px ridge #000;
 	max-width: 235px;
 	padding: 10px 20px;
 	font-size: 16px;
-	/* border-radius: 12px; */
-	/* box-shadow: inset 1px 1px 9px rgb(5, 5, 5); */
+	border-radius: 12px;
+	box-shadow: inset 1px 1px 9px rgb(5, 5, 5);
 	color: #000;
-	margin: 13% 0 0 14%;
   }
 
   .submit {
-	position: absolute;
-	margin: 40% 0 0 -13%;
-	height: 6%;
-	width: 23%;
 	background-color: #597445;
 	border-radius: 5px;
 	border: none;
@@ -210,13 +181,11 @@ color: #000;
   }
 
   .back {
-	position: absolute;
 	font-family: sans-serif;
 	letter-spacing: 1px;
 	font-size: 17px;
 	color: #c21f69;
 	font-weight: 550;
-	margin: 3% 0 0 5%;
 	
 }
 
@@ -225,16 +194,12 @@ color: #000;
 	font-size: 50px;
 	font-weight: 600;
 	letter-spacing: 2px;
-	max-width: 90%;
-	margin: -3% 0 0 5%;
 	text-transform: uppercase;
     
 }
 
 .phoneNumber {
-	margin: 2% 0 0 30% ;
 	font-size: 17px;
 	font-family: sans-serif;
 	letter-spacing: 1px;
-}
->>>>>>> Stashed changes
+} 
