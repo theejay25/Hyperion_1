@@ -201,6 +201,7 @@ position: absolute;
 	border-radius: 5px;
 	font-size: 18px;
 	outline: none;
+	cursor: text;
   }
   .back {
 	font-family: sans-serif;
@@ -215,6 +216,7 @@ position: absolute;
 	text-decoration: none;
 	color: #000;
 	margin-top: 20px;
+	cursor: pointer;
 }
 .text_1 {
 	font-family: sans-serif;
