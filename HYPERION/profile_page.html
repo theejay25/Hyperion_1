@@ -33,20 +33,20 @@
 
 
 <div class="information">
-	<img src="" class="img" alt="profile">
+	<img src="images/ian.jpg" class="img" alt="profile">
 	
-	<button onclick="" class="btn">Button</button>
-	<ion-icon name="basket-outline" size="big"></ion-icon>
-	<a href="#" class="basket">my basket</a>
-
 	<span class="personal">
 
-		<p class="text_1" id="title">Jay jay jay jay</p>
-		<p class="phoneNumber" id="phoneNumber"></p>
-		<h1 class="warning">Please <a href="#" onclick="signUp()" class="linkUp">Sign in</a> to view information</h1>
+		<p class="text_1" id="title">jay jay jsy</p>
+		<p class="phoneNumber" id="phoneNumber">454545455</p>
+		<h1 class="warning" id="warn">Please <a href="#" onclick="signUp()" class="linkUp">Sign in</a> to view information</h1>
 
-
+		<button onclick="" class="btn">Button</button>
 	</span>
+
+	
+	<ion-icon name="basket-outline" size="big"></ion-icon>
+	<a href="#" class="basket">my basket</a>
 
 	<span class="signUp" id="signUp">
          <!-- class: back will be replaced with back arrow icon -->
@@ -108,6 +108,9 @@
 			var identity = document.getElementById('phone').value;
 		
 		document.getElementById("phoneNumber").innerHTML = identity;
+
+		document.querySelector(".signUp").setAttribute("style","display = none;");
+		document.getElementById("warn").style.display = "none";
 		}
 		
 		</script>
