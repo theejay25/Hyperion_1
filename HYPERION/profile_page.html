@@ -39,7 +39,7 @@
 	<span class="personal">
 
 		<p class="text_1" id="title"></p>
-		<p class="phoneNumber" id="phoneNumber"></p>
+		<p class="phoneNumber" id="phoneNumber">jggjghhghhg</p>
 		<h3 class="warning" id="warn">Please <a href="#" onclick="signUp()" class="linkUp">Sign in</a> to view information</h3>
 
 		<button onclick="" class="btn">Button</button>
@@ -62,7 +62,7 @@
 
 		<input placeholder="Re-enter Password" id="pword2" type="password " required />
 
-		<input type="submit" class="submit" value="Finish" onclick="input()" />
+		<input type="submit" class="submit" value="Finish" style="cursor: pointer;"/>
 		<a href="#" onclick="back()" class="back">back</a>
 	</form>
 
@@ -85,7 +85,7 @@
 
 
 	<script>
-
+		var form = document.querySelector("form");
 		function signUp(){
 		  // Access the style property directly
 		  var join = document.getElementById('signUp').style;
@@ -106,10 +106,10 @@
 		join.display = 'none';
 		}
 		
-		function input() {
+		form.onsubmit() = ()=>{
 			var identity = document.getElementById('identity').value;
 		
-			document.getElementById("title").innerHTML = identity;
+			console.log(document.getElementById("title").innerHTML);
 		
 			var identity = document.getElementById('phone').value;
 		
@@ -117,7 +117,7 @@
 
 		document.querySelector(".signUp").setAttribute("style","display = none;");
 		document.getElementById("warn").style.display = "none";
-		}
+	}
 		
 		</script>
 </html>		
