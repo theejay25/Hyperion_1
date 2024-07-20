@@ -18,7 +18,6 @@ h1 {
 	font-family: sans-serif;
 	letter-spacing: 1px;
 	font-size: 17px;
-	margin: 15% 0 0 24%;
 }
 
 body{
@@ -166,14 +165,12 @@ position: absolute;
 
 .signUp {
 	background:#fff;
-	/*height: 110%;
-	width: 35%;*/
 	border-radius:12px ;
 	border: .5px solid #c21f69;
 	display: none;
 }
 .warning{
-	display: none;
+	display: block;
 }
 
 .input {
