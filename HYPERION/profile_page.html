@@ -34,38 +34,39 @@
 
 <div class="information">
 	<img src="images/ian.jpg" class="img" alt="profile">
-	
+
+<div class="info">
 	<span class="personal">
 
 		<p class="text_1" id="title"></p>
 		<p class="phoneNumber" id="phoneNumber"></p>
-		<h1 class="warning" id="warn">Please <a href="#" onclick="signUp()" class="linkUp">Sign in</a> to view information</h1>
+		<h3 class="warning" id="warn">Please <a href="#" onclick="signUp()" class="linkUp">Sign in</a> to view information</h3>
 
 		<button onclick="" class="btn">Button</button>
 	</span>
-
+</div>
 	
 	<ion-icon name="basket-outline" size="big"></ion-icon>
 	<a href="#" class="basket">my basket</a>
 
-	<span class="signUp" id="signUp">
+	<div class="signUp" id="signUp">
          <!-- class: back will be replaced with back arrow icon -->
+		  <h1>Create Account</h1>
+	<form action="">
+		<a href="https://myaccount.google.com" class="google">Continue to Google</a>
+		<input placeholder="Username" id="identity" type="text" required />
 
-		<a href="#" onclick="back()" class="back">back</a>
-      
-		<input placeholder="Username" class="input" id="identity" type="text" required />
+		<input placeholder="E-mail" id="email" type="email" required />
 
-		<input placeholder="Phone number" class="input" id="phone" type="number" required  max="11" />
+		<input placeholder="Password" id="pword" type="password" required />
 
-		<input placeholder="E-mail" class="input" id="email" type="email" required />
-
-		<input placeholder="Password" class="input" id="pword" type="password" required />
-
-		<input placeholder="Re-enter Password" class="input" id="pword2" type="password " required />
+		<input placeholder="Re-enter Password" id="pword2" type="password " required />
 
 		<input type="submit" class="submit" value="Finish" onclick="input()" />
+		<a href="#" onclick="back()" class="back">back</a>
+	</form>
 
-	</span>
+	</div>
 
 </div>
 
@@ -88,10 +89,15 @@
 		function signUp(){
 		  // Access the style property directly
 		  var join = document.getElementById('signUp').style;
-		
+		  var info = document.querySelector(".info").style;
 		  // Modify CSS properties
+
+		  info.width = 0;
+		  info.height = 0;
+		  info.display = 'none';
+		  join.display = 'flex';
+		  join.marginTop = '50px';
 		  
-		  join.display = 'inline';
 		}
 		
 		function back() {
