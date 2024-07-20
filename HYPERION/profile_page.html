@@ -9,11 +9,6 @@
 
 </head>
 
-<script>
-
-
-</script>
-
 <body>
 
 	<p class="name">HYPERION</p>
@@ -45,14 +40,26 @@
 
 	<span class="personal">
 
+		<p class="text_1" id="title"></p>
+		<p class="phoneNumber" id="phoneNumber"></p>
 		<h1 class="warning">Please <a href="#" onclick="signUp()" class="linkUp">Sign in</a> to view information</h1>
-
 
 	</span>
 
 	<span class="signUp">
       
 		<input placeholder="Username" class="input" name="text" type="text">
+		
+		<input placeholder="Phone number" class="input" id="phone" type="number" required  max="11" />
+
+		<input placeholder="E-mail" class="input" id="email" type="email" required />
+
+		<input placeholder="Password" class="input" id="pword" type="password" required />
+
+		<input placeholder="Re-enter Password" class="input" id="pword2" type="password " required />
+
+		<input type="submit" class="submit" value="Finish" onclick="input()" />
+
 
 	</span>
 
@@ -61,3 +68,40 @@
     </section>
 
 	</body>
+
+
+
+
+
+<script>
+
+	
+	function signUp(){
+		// Access the style property directly
+		var join = document.getElementById('signUp').style;
+	  
+		// Modify CSS properties
+		
+		join.display = 'inline';
+	  }
+	  
+	  function back() {
+	  var join = document.getElementById('signUp').style;
+	  
+	  join.display = 'none';
+	  }
+	  
+	  function input() {
+		  var identity = document.getElementById('identity').value;
+	  
+		  document.getElementById("title").innerHTML = identity;
+	  
+		  var identity = document.getElementById('phone').value;
+	  
+	  document.getElementById("phoneNumber").innerHTML = identity;
+	  }
+
+	  </script>
+
+
+	  </html>
