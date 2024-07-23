@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+@font-face{
+	font-family: 'rastiga';
+    src: url('../font/Rastiga.otf');
+}
+
+input {
+	cursor: pointer;
+}
+
+body{
+	background: #fcfcfc;
+	height: 100vh;
+	width: 100%;
+	padding: 30px 50px 60px 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.header{
+	display: block;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    width: 96%;
+    height: 7%;
+    margin: 0 0 0 2%;
+
+}
+.name{
+	font-size: 35px;
+	letter-spacing: 6px;
+	font-family: rastiga, sans-serif;
+	color: #000;
+	
+	}
+
+a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #000;
+	font-family: raleway, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+ul{
+display: inline-flex;
+gap: 50px;
+list-style: none;	
+margin: auto;
+}
+
+.links{
+	position: relative;
+background-color: transparent;
+width: 30%;
+margin: -2% 0 0 72%;
+}
+
+.item_section{
+    position: absolute;
+    height: 50%;
+    width: 95%;
+    margin: 2% 0 0 -3%;
+    border-bottom: 1px solid #000;
+}
+
+.item_name

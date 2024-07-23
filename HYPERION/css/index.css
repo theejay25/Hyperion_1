@@ -99,20 +99,8 @@ margin: 0 0 0 0;
 font-size: 155px;
 letter-spacing: 8px;
 font-family: rastiga, sans-serif;
-margin: 17% 0 0 28.5%;
+margin: 15% 0 0 26%;
 color: #000;
-}
-
-.name::before{
-	position: absolute;
-	background-color:#ECCEAE;
-	content: "";
-	margin-left: -5%;
-	margin-top: 11%;
-	border-radius: 0px;  
-	height: 3%;
-	width: 110%;
-	display: none;	
 }
 
 .links{
