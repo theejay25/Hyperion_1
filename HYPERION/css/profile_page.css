@@ -165,21 +165,27 @@ section{
 	width: 22%;
 	border-radius:12px ;
 	border: .5px solid #c21f69;
-	display: none;
+	display: block;
 	z-index: 3;
 }
 
 .input {
 	margin: 50px 30px 0 50px;
 	background: none;
-	border: none;
+	border: 1px solid #000;
 	outline: none;
-	max-width: 235px;
+	max-width: 300px;
 	padding: 10px 17px;
 	font-size: 16px;
 	border-radius: 12px;
-	box-shadow: inset 1px 1px 9px rgb(5, 5, 5);
+	/* box-shadow: inset 1px 1px 9px rgb(5, 5, 5); */
 	color: #000;
+	
+  }
+
+.input::placeholder {
+	text-align: center; /* Adjust alignment to left, right, or center */
+	padding-left: 10px; /* Add padding to adjust position */
   }
 
   .submit {
@@ -196,6 +202,14 @@ section{
 
   }
 
+  .fa-user,
+  .fa-phone,
+  .fa-envelope,
+  .fa-unlock,
+  .fa-lock{
+	
+  }
+
   .back {
 	position: absolute;
 	font-family: sans-serif;
@@ -203,6 +217,7 @@ section{
 	font-size: 17px;
 	color: #c21f69;
 	font-weight: 550;
+	margin: 5% 0 0 5%;
 	
 }
 

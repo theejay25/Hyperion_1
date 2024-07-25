@@ -6,6 +6,8 @@
 	<title>Hyperion</title>
 	<link rel="stylesheet" type="text/css" href="css/profile_page.css">
 	<link rel="stylesheet" type="text/css" href="css/animations.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/regular.min.css">
 
 </head>
 
@@ -51,19 +53,19 @@
 	<span class="signUp" id="signUp">
          <!-- class: back will be replaced with back arrow icon -->
 
-		<a href="#" onclick="back()" class="back">back</a>
+		<a href="#" onclick="back()" class="back"><i class="fas fa-arrow-left"></i></a>
       
-		<input placeholder="Username" class="input" id="identity" type="text" required />
+		<i class="fas fa-user"></i>  <input placeholder="Username" class="input" id="identity" type="text" required />
 
-		<input placeholder="Phone number" class="input" id="phone" type="number" required  max="11" />
+		<i class="fas fa-phone"></i>  <input placeholder="Phone number" class="input" id="phone" type="number" required  max="11" />
 
-		<input placeholder="E-mail" class="input" id="email" type="email" required />
+		<i class="fas fa-envelope"></i>  <input placeholder="E-mail" class="input" id="email" type="email" required />
 
-		<input placeholder="Password" class="input" id="pword" type="password" required />
+		<i class="fas fa-lock"></i>  <input placeholder="Password" class="input" id="pword" type="password" required />
 
-		<input placeholder="Re-enter Password" class="input" id="pword2" type="password " required />
+		<i class="fas fa-unlock"></i>  <input placeholder="Re-enter Password" class="input" id="pword2" type="password " required />
 
-		<input type="submit" class="submit" value="Finish" onclick="input()" />
+		<input type="submit" class="submit" value="Finish >" onclick="input()" />
 
 	</span>
 
