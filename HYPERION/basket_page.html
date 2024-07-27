@@ -26,6 +26,7 @@
 
 		<span class="underline"></span>
 	</div>
+    </nav>
 
     <section class="body">
 
@@ -44,12 +45,45 @@
 
 		<div class="size">
 
-			<button class="up">></button>
-		    <p class="digits">1</p></p>
-			<button class="down">></button>
+			<button class="minus" onclick="decrease()">_</button>
+		    <p class="digits" id="number">1</p></p>
+			<button class="plus" onclick="increase()">+</button>
 
 		</div>
+
+		<p class="text">sizes:</p>
+		<ul class="menu">
+			<li class="list"><div class=" divs">xxxl</div></li>
+			<li class="list"><div class=" divs">xxl</div></li>
+			<li class="list"><div class=" divs">xl</div></li>
+			<li class="list"><div class=" divs">l</div></li>
+			<li class="list"><div class=" divs">m</div></li>
+			<li class="list"><div class=" divs">s</div></li>
+		</ul>
 
        </span>
 
     </section>
+	</body>
+
+
+
+
+	<script>
+        let number = 1;
+
+        function increase() {
+            number++;
+            document.getElementById('number').innerText = number;
+        }
+
+        function decrease() {
+			if (number > 0) {
+            number--;
+            document.getElementById('number').innerText = number;
+			}
+        }
+
+    </script>
+
+	</html>
