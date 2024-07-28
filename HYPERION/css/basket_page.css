@@ -190,15 +190,27 @@ margin: 4% 0 0 35% ;
 	display: inline-flex;
 gap: 30px;
 list-style: none;	
-margin: auto;
+margin: 1.5% 0 0 35%;
+
 }
 
 .divs {
-font-size: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 12px;
+font-weight: 600;
 font-family: sans-serif;
-letter-spacing: 2px;
+letter-spacing: 1px;
 text-transform: uppercase;
-border: .5px solid #000;
-height: 190%;
-width: 230%;
+border: .5px solid #bbbbbb;
+height: 28px;
+width:  43px;
+align-items: center;
+cursor: pointer;
+transition: .4s all;
+}
+
+.divs:hover {
+    box-shadow: 1px 1px 9px #8f8f8f;	
 }
