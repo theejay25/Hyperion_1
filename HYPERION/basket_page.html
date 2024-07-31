@@ -6,6 +6,8 @@
 	<title>Hyperion</title>
 	<link rel="stylesheet" type="text/css" href="css/basket_page.css">
 	<link rel="stylesheet" type="text/css" href="css/animations.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 
 </head>
 <body>
@@ -31,7 +33,7 @@
     <section class="body">
 
        <span class="item_section">
-		<img class="img" alt="Product image" width="100px">
+		<img class="img" alt="Product image" width="100px" src="../HYPERION/images/math.jpg">
         
         <p class="item_name" id="itemName">Hyperion Shirt</p>
         <p class="item_price" id="itemPrice">#15000</p>
@@ -65,6 +67,21 @@
        </span>
 
     </section>
+
+	<section class="more_section">
+
+		<ul class="ul">
+			<li class="images"><img src="../HYPERION/images/yamaji.jpg" width="170px" alt="Product-image" class="imgs"></li>
+			<li class="images"><img src="../HYPERION/images/gojo.jpg" width="170px" alt="Product-image" class="imgs"></li>
+			<li class="images"><img src="../HYPERION/images/bonez.jpg" width="170px" alt="Product-image" class="imgs"></li>
+			<li class="images"><img src="../HYPERION/images/hyper.jpg" width="170px" alt="Product-image" class="imgs"></li>
+			<li class="images"><img src="../HYPERION/images/ian.jpg" width="170px" alt="Product-image" class="imgs"></li>
+			<li class="more" title="More"><button class="more_button"><i class="fas fa-arrow-right"></i></button></li>
+		</ul>
+
+	</section>
+
+
 	</body>
 
 
@@ -74,9 +91,11 @@
         let number = 1;
 
         function increase() {
+			if (number < 20) {
             number++;
             document.getElementById('number').innerText = number;
         }
+	}
 
         function decrease() {
 			if (number > 0) {
