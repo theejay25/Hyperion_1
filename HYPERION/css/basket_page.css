@@ -235,7 +235,6 @@ transition: .3s all;
 .more_section::-webkit-scrollbar-thumb {
     background-color: darkgrey;
     border-radius: 10px;
-	width: 20px;
 }
 
 /* The part of the scrollbar you can click to scroll (track) */
