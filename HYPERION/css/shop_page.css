@@ -1,0 +1,112 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+@font-face{
+	font-family: 'rastiga';
+    src: url('../font/Rastiga.otf');
+}
+
+input {
+	cursor: pointer;
+}
+
+h1 {
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	font-size: 17px;
+	margin: 15% 0 0 24%;
+}
+
+body{
+	background: #fcfcfc;
+	height: 100vh;
+	width: 100%;
+	padding: 30px 50px 60px 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.name{
+	font-size: 45px;
+	letter-spacing: 8px;
+	font-family: rastiga, sans-serif;
+	color: #000;
+	
+	}
+
+a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #000;
+	font-family: raleway, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+ul{
+display: inline-flex;
+gap: 50px;
+list-style: none;	
+}
+
+
+.links{
+	position: relative;
+background-color: transparent;
+width: 30%;
+margin: -2% 0 0 0%;
+}
+
+/*
+.underline{
+	position: absolute;
+	background-color:#5C5346;
+	content: "";
+	margin-left: -56%;
+	margin-top: 10%;
+	filter: blur(0px);
+	border-radius: 0px;  
+	height: 10%;
+	width: 15%;
+	z-index: -1;
+	transition: .5s all;
+	}
+
+
+     /* work in progress */
+
+
+	/* .link:nth-child(2){
+		/* background-color: #fff; */
+		/* margin-left: -36%;
+	margin-top: 10%; 
+}*/
+
+
+
+
+/*U.header{
+display: flex;
+background-color: 	transparent;
+height: 8%;
+width:100%;
+margin: 0 0 0 0;
+}
+*/
+section{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

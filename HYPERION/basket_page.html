@@ -76,7 +76,7 @@
 			<li class="images"><img src="../HYPERION/images/bonez.jpg" width="170px" alt="Product-image" class="imgs"></li>
 			<li class="images"><img src="../HYPERION/images/hyper.jpg" width="170px" alt="Product-image" class="imgs"></li>
 			<li class="images"><img src="../HYPERION/images/ian.jpg" width="170px" alt="Product-image" class="imgs"></li>
-			<li class="more" title="More"><button class="more_button"><i class="fas fa-arrow-right"></i></button></li>
+			<li class="more" title="More"><button class="more_button" onclick="shop()"><i class="fas fa-arrow-right"></i></button></li>
 		</ul>
 
 	</section>
@@ -103,6 +103,12 @@
             document.getElementById('number').innerText = number;
 			}
         }
+
+
+		function shop() {
+			const newPageUrl = 'C:\Users\pc\Documents\Work Area\HTML\github\Hyperion_1\HYPERION\shop_page.html';
+			window.location.href = newPageUrl;
+}
 
     </script>
 

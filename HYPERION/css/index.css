@@ -52,13 +52,14 @@ ul{
 	display: inline-flex;
 position: relative;
 margin: 0;
-gap: 60px;
+gap: 50px;
 top: 40%;
 left: 40%;
 list-style: none;	
 }
 
-.underline{
+
+/* .underline{
 	position: absolute;
 	background-color:#5C5346;
 	content: "";
@@ -70,7 +71,7 @@ list-style: none;
 	width: 15%;
 	z-index: -1;
 	transition: .5s all;
-	}
+	} */
 
 
      /* work in progress */
@@ -104,10 +105,10 @@ color: #000;
 }
 
 .links{
-	position: relative;
+	position:absolute;
 background-color: transparent;
 width: 30%;
-margin: 0 0 0 55%;
+margin: 1% 0 0 53%;
 }
 
 .content_1{
@@ -213,7 +214,7 @@ box-shadow: 3px 1px 9px #8f8f8f;
 height: 28%;	
 width: 32%;
 border-radius: 11px;
-margin: 1% 0 0 5%;
+margin: 4% 0 0 5%;
 box-shadow: 3px 1px 9px #8f8f8f;
 }
 

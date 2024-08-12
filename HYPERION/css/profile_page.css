@@ -56,9 +56,18 @@ a{
 
 ul{
 display: inline-flex;
-gap: 60px;
+gap: 50px;
 list-style: none;	
 }
+
+
+.links{
+	position: relative;
+background-color: transparent;
+width: 30%;
+margin: -2% 0 0 0%;
+}
+
 /*
 .underline{
 	position: absolute;

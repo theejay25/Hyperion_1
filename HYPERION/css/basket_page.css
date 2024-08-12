@@ -81,7 +81,7 @@ margin: -2% 0 0 72%;
 	position: absolute;
 	border: 2px solid #000;
 	height: 92%;
-	width: 30%;
+	width: 25%;
 }
 
 
@@ -219,7 +219,7 @@ transition: .3s all;
 
 .more_section {
 	position: absolute;
-	margin: 30% 0 0 -2%;
+	margin: 28% 0 0 -2%;
 	background-color: transparent;
 	height: 33%;
 	width: 98%;
@@ -247,7 +247,7 @@ transition: .3s all;
 	position: absolute;
 	border: 2px solid #000;
 	height: 80%;
-	width: 15%;
+	width: 13%;
 }
 
 .ul {
