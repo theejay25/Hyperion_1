@@ -38,10 +38,12 @@ body{
 
 }
 .name{
-	font-size: 45px;
-	letter-spacing: 8px;
+	position: absolute;
+	font-size: 25px;
+	letter-spacing: 7px;
 	font-family: rastiga, sans-serif;
 	color: #000;
+	margin: -1% 0 0 -2%;	
 	
 	}
 
@@ -65,7 +67,7 @@ list-style: none;
 	position: relative;
 background-color: transparent;
 width: 30%;
-margin: -2% 0 0 0%;
+margin: -1% 0 0 70%;
 }
 
 /*
@@ -109,4 +111,15 @@ section{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+
+.container{
+	position: absolute;
+	height: 40%;
+	width: 95%;
+	background-color: #d3dce1;
+	margin: -55% 0 0 -1%;
+	border-radius: 10px;
+	backdrop-filter: blur(10px);
 }
