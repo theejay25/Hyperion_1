@@ -39,6 +39,19 @@ img{
 	margin: -2% 0 0 0;
 }
 
+.greetings{
+	text-transform: capitalize;
+	position: absolute;
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-weight: 600;
+	font-family: sans-serif;
+	margin: 18% 0 0 5%;
+	transition: .7s all;
+	display: block;
+
+}
+
 a{
 	text-transform: capitalize;
 	text-decoration: none;
