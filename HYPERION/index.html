@@ -10,7 +10,7 @@
 </head>
 <body onload="greet()">
 
-	<p class="name">HYPERION</p>
+	<p class="name" id="name">HYPERION</p>
 
 <nav class="header">
 
@@ -20,7 +20,7 @@
 
 		<ul>
        <li class="link"><a href="#">home</a></li>
-	   <li class="link"><a href="#">featured</a></li>
+	   <li class="link"><a href="test.html">featured</a></li>
 	   <li class="link"><a href="basket_page.html">basket</a></li>
 	   <li class="link"><a href="profile_page.html">profile</a></li>
 
@@ -31,7 +31,7 @@
 
 </nav>
 
-<section class="body">
+<section class="body" id="body" >
 	<p class="greetings" id="greet"></p>
 
 	<div class="content_1">
@@ -71,7 +71,7 @@
 		
 	</div>
 
-	<p  class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+	<p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
 		 A ipsa iste adipisci harum aliquam.<br>
 		 Libero voluptatum</p>
 
@@ -86,6 +86,11 @@
 
 
 <script>
+
+	function mode() {
+		var body = document.getElementById('body');
+		body.classList.toggle('body_1');
+	}
 
 function shop() {
 	window.open ('shop_page.html');
@@ -115,6 +120,25 @@ function greet() {
 }
 
 
+// document.addEventListener('DOMContentLoaded', function() {
+//     function applyDarkMode() {
+//         const now = new Date();
+//         const hours = now.getHours();
+
+//         // Dark mode from 8 PM (20:00) to 7 AM (07:00)
+//         const isDarkMode = hours >= 19 || hours < 7;
+
+//         // Select the section with ID 'body'
+//         const section = document.getElementById('body');
+//         if (section) {
+//             // Add or remove the dark mode class
+//             section.classList.toggle('body_1', isDarkMode);
+//         }
+//     }
+
+//     // Apply dark mode on page load
+//     applyDarkMode();
+// });
 
 
 </script>
