@@ -32,7 +32,10 @@
 </nav>
 
 <section class="body" id="body" >
+
 	<p class="greetings" id="greet"></p>
+
+	<div id="clock" class="clock" ></div>
 
 	<div class="content_1">
 
@@ -118,6 +121,36 @@ function greet() {
 
 
 }
+
+function updateClock() {
+            var date = new Date();
+            var hour = date.getHours();
+            var minute = date.getMinutes();
+            var second = date.getSeconds();
+            var session = "AM"
+            // Add leading zeros for single digit values
+            hour = (hour < 10) ? '0' + hour : hour;
+            minute = (minute < 10) ? '0' + minute : minute;
+            second = (second < 10) ? '0' + second : second;
+
+            if (hour === 0) {
+                
+                hour = 12; //12 hour format
+            }
+
+            if (hour > 12) {
+                hour = hour-12 // 12 hour format PM
+                session ="PM"; 
+            }
+
+            document.getElementById('clock').innerHTML = hour + ':' + minute + ':' + second + '' + session;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+
+        // Initial call to display the clock immediately
+        updateClock();
 
 
 // document.addEventListener('DOMContentLoaded', function() {
