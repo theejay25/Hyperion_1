@@ -30,17 +30,6 @@ img{
 	margin: 1.5% 0 0 4%;
 }
 
-.body_1 {
-	background-color: #15292b;
-	color: #737373;
-}
-
-
-.name_1{
-	color: #737373;
-}
-
-
 .body{
 	background: #fcfcfc;
 	height: 100%;
@@ -98,33 +87,6 @@ top: 40%;
 left: 40%;
 list-style: none;	
 }
-
-
-/* .underline{
-	position: absolute;
-	background-color:#5C5346;
-	content: "";
-	margin-left: -56%;
-	margin-top: 10%;
-	filter: blur(0px);
-	border-radius: 0px;  
-	height: 10%;
-	width: 15%;
-	z-index: -1;
-	transition: .5s all;
-	} */
-
-
-     /* work in progress */
-
-
-	/* .link:nth-child(2){
-		/* background-color: #fff; */
-		/* margin-left: -36%;
-	margin-top: 10%; */
-	} */
-
-
 
 .header{
 	position: fixed;
@@ -323,5 +285,9 @@ box-shadow: 3px 1px 9px #8f8f8f;
 	text-transform: uppercase;
 	color: #fff ;
 	margin: 1% 0 0 15%;
+	cursor: pointer;
+}
+
+button:hover {
 	cursor: pointer;
 }
